@@ -1,0 +1,89 @@
+.header__container {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__menu {
+  display: flex;
+  gap: 33px;
+}
+
+.nav__link {
+  color: #83888f;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px; /* 125% */
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+}
+
+.nav__link:hover {
+  color: #333d4b;
+}
+
+.banner__container{
+  margin: 0 auto;
+  padding: 137px 85px;
+  width: 1289px;
+  height: 450px;
+  background-image: url(../images/about-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.banner__title p{
+  font-family: Fraunces ;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  color: rgba(254, 252, 247, 1);
+}
+
+.banner__desc{
+  margin-top: 24px;
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(254, 252, 247, 1);
+}
+
+.commitment__section{
+  padding: 168px 0;
+}
+
+.commitment__row{
+  margin: 0 auto;
+  width: 1110px;
+  height: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.commitment__card{
+  width: 540px;
+}
+
+.commitment__img img{
+  width: 455px;
+  height: 520px;
+}
+
+.commitment__title{
+  font-family: Fraunces ;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  color: rgba(51, 61, 75, 1);
+}
+
+.commitment__desc{
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(51, 61, 75, 1);
+  margin-top: 32px;
+}
